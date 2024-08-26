@@ -48,24 +48,43 @@
 </head>
 <body class="manrope-font">
 
-    <header class="container mx-auto bg-slate-100">
+    <header class="md:container md:mx-auto bg-slate-100">
 
       <!-- nav starts  -->
       <div class="navbar">
         <div class="navbar-start">
-          <div class="dropdown">
+
+          <i class="fa-solid fa-arrow-right -rotate-45 bg-primary-bg rounded-full p-5 w-4 h-4 items-center justify-center flex"></i>
+          <a class="btn btn-ghost text-3xl font-extrabold ">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex md:mr-20">
+          <ul class="menu menu-horizontal px-1 text-lg text-slate-700">
+            <li><a class="font-bold text-slate-700 text-lg">Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-3 lg:flex hidden">
+            <i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full text-gray-600"></i>
+            <i class="fa-solid fa-cart-shopping  bg-white p-3 rounded-full text-gray-600"></i>
+
+          <a class="btn bg-primary-bg rounded-full font-extrabold text-lg">Book consult<i class="fa-solid fa-arrow-right -rotate-45 bg-slate-900 rounded-full p-4 w-2 h-2 items-center justify-center flex text-white"></i></a>
+
+
+          <div class="dropdown bg-white rounded-full ml-2">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
+                <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor">
+                class="inline-block h-4 w-4 stroke-current">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
+                  d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </div>
             <ul
@@ -78,25 +97,10 @@
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-          <i class="fa-solid fa-arrow-right -rotate-45 bg-primary-bg rounded-full p-5 w-4 h-4 items-center justify-center flex"></i>
-          <a class="btn btn-ghost text-3xl font-extrabold ">Rinterio</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-lg text-slate-700">
-            <li><a class="font-bold text-slate-700 text-xl">Home</a></li>
-            <li><a>Services</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-3">
-            <i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full text-gray-600"></i>
-            <i class="fa-solid fa-cart-shopping  bg-white p-3 rounded-full text-gray-600 "></i>
-
-          <a class="btn bg-primary-bg rounded-full font-extrabold text-lg">Book consult<i class="fa-solid fa-arrow-right -rotate-45 bg-slate-900 rounded-full p-4 w-2 h-2 items-center justify-center flex text-white"></i></a>
    
         </div>
+
+              
       </div>
       <!-- nav ends  -->
 
@@ -107,8 +111,8 @@
             src="./assets/banner.png"
             class="max-w-sm rounded-lg" />
           <div>
-            <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
-            <p class="py-6">
+            <h1 class="text-5xl font-black">A barn house of this design has a striking appearance</h1>
+            <p class="py-6 font-medium">
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
             </p>
             <a class="btn bg-light-primary-bg rounded-full font-extrabold text-lg">View Details
